@@ -1,0 +1,72 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(images/LaduGopal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    margin: 50px;
+    border-radius: 30px;
+}
+.navlinks{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navlinks ul{
+    list-style: none;
+    display:  inline-flex;
+    margin: 100px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #fff;
+    transition: 3s;
+}
+.navlinks a:hover{
+    color: crimson;
+}
+.text h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight:900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    transition: 2s;
+}
+.text p{
+    text-align: center;
+    font-size: 20px;
+    font-weight:900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    margin-top: 30px;
+    transition: 2s;
+}
+.text h1:hover{
+    transform: translateY(3px);
+}
+.text p::after{
+    transform: translateZ(5px);
+}
+.text-2{
+    margin-left: 1000px;
+    color: #fff;
+    margin-top: -200px;
+}
+
+
+
+
+
+
